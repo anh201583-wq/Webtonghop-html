@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trang Chủ Của Tôi</title>
+        <meta charset="utf-8">
+
+<!--Phần Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        html,body{
+            height: 100%;
+            margin:0;
+        }
+
+        .navbar-nav > li > a:hover {
+    background-color: transparent;
+    color: #007bff !important;
+}
+
+
+    body{
+        background-color: #fffefe;
+        color: rgb(0, 0, 0);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .container {
+  flex: 1;
+}
+    
+
+    .col-sm-4 {
+        background: white;
+        color: black;
+        padding: 25px;
+        margin-top: 20px;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        transition: 0.3s;
+
+    }
+
+    .col-sm-4:hover {
+    transform: translateY(-10px);
+    }
+
+    
+
+    .navbar-default{
+        background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+        border:none;
+        padding: 0;
+    }
+
+    .navbar-default .navbar-brand {
+        color: white !important;
+        font-size: 20px;
+
+    }
+    
+    .navbar-default .navbar-nav > li > a:hover {
+        color: #00c6ff !important;
+        background: transparent;
+    }
+
+    .icon-box {
+        width: 70px;
+        height: 70px;
+        background: #eaf2ff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 10px;
+    }
+
+    .icon-box i {
+        font-size: 30px;
+        color: #007bff;
+    }
+
+    .col-sm-4:hover .icon-box {
+    background: #007bff;
+    transition: 0.3s;
+    }
+
+    .col-sm-4:hover .icon-box i {
+    color: white;
+    }
+   
+
+    .hero-section {
+        background-image: url(https://i.postimg.cc/138dpmBL/pexels-joni-tuohimaa-1936935-12736972.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        color: white;
+        padding: 80px 20px;
+        margin-bottom: 0;
+}
+
+    .avatar-hero {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 5px solid white;
+        object-fit: cover;
+        margin-bottom: 20px;
+}
+
+.navbar-nav > .active > a {
+    background: #007bff !important;
+    color: white !important;
+    border-radius: 5px;
+}
+    
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+
+        <div class="container">
+
+            <!--Tên Web-->
+            <div class="navbar-header" style="display:flex; align-items:center;">
+    
+                <a class="navbar-brand" href="#" style="display:flex; align-items:center; gap:10px;">
+        
+                 <i class="fa fa-code" style="font-size:22px;"></i>
+        
+            <span style="font-weight:bold;">Kiên Anh Tuấn</span>
+    
+        </a>
+
+    </div>
+
+            <!--Menu-->
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="https://anh201583-wq.github.io/Trangchu-html/">Trang Chủ</a></li>
+                <li><a href="https://anh201583-wq.github.io/TrangBaiTap-html/">Bài Tập</a></li>
+                <li><a href="#">Dự Án</a></li>
+                <li><a href="https://anh201583-wq.github.io/Tranglienhe-html/">Liên Hệ</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><i class="fa fa-github"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+    </div>
+</nav>
+<div class="hero-section text-center">
+    <div class="container">
+        <img src="https://i.postimg.cc/zBqn73Jp/Tuan-Anh.jpg" class="avatar-hero">
+
+        <h1><b>Xin chào! Mình là Tuấn Anh 👋</b></h1>
+        <p>Sinh viên CNTT, đam mê lập trình web, học hỏi và phát triển bản thân</p>
+
+        <a href="https://anh201583-wq.github.io/TrangBaiTap-html/" class="btn btn-primary btn-lg">Xem bài tập</a>
+        <a href="https://anh201583-wq.github.io/Tranglienhe-html/" class="btn btn-default btn-lg">Liên hệ mình</a>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-sm-4 text-center">
+            <div class="icon-box">
+                <i class="fa fa-user"></i>
+            </div>
+
+            <h3>Giới thiệu</h3>
+            <p>Mình là Tuấn, hiện đang học và thực hành lập trình web</p>
+            <a href="https://tieuchi1194-sketch.github.io/Gioithieubanthan-html/" class="btn btn-primary">Xem</a>
+        </div>
+
+        <div class="col-sm-4 text-center">
+            <div class="icon-box">
+                <i class="fa fa-code"></i>
+            </div>
+          
+            <h3>Bài Tập</h3>
+            <p>Tổng hợp các bài tập mà mình đã làm trong quá trình học</p>
+            <a href="https://anh201583-wq.github.io/TrangBaiTap-html/" class="btn btn-primary">Xem</a>
+        </div>
+
+        <div class="col-sm-4 text-center">  
+            <div class="icon-box">
+                <i class="fa fa-envelope"></i>
+            </div>
+            
+            <h3>Liên hệ</h3>
+            <p>Bạn có thể liên hệ mình qua các thông tin Sau</p>
+            <a href="https://anh201583-wq.github.io/Tranglienhe-html/" class="btn btn-primary">Xem</a>
+        </div>
+
+    </div>
+</div>
+<footer style="text-align:center; padding:20px; background:#0f2027; color:white;">
+    <p>© 2026 Tuấn Anh</p>
+</footer>
+
+</body>
+</html>
